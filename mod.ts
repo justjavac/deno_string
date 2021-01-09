@@ -1,1 +1,1 @@
-export { default as stripBom} from './stripBom.ts';
+export { default as stripBom } from "./stripBom.ts";

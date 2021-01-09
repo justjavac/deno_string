@@ -6,21 +6,20 @@
 
 Deno string utils.
 
-
 ## Usage
 
 ```ts
-import { camelCase } from "https://deno.land/x/case/mod.ts";
-camelCase("test string");
-// => 'testString'
+import { stripBom } from "https://deno.land/x/string/mod.ts";
+stripBom('\uFEFFjustjavac');
+// => 'justjavac'
 ```
 
 or
 
 ```ts
-import camelCase from "https://deno.land/x/case/camelCase.ts";
-camelCase("test string");
-// => 'testString'
+import stripBom from "https://deno.land/x/string/stripBom.ts";
+stripBom('\uFEFFjustjavac');
+// => 'justjavac'
 ```
 
 ## Supported functions
