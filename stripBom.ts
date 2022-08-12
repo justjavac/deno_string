@@ -1,9 +1,9 @@
 // Copyright Sindre Sorhus(@sindresorhus). and other strip-bom contributors. MIT license.
 /**
  * Strip UTF-8 [byte order mark](https://en.wikipedia.org/wiki/Byte_order_mark#UTF-8) (BOM) from a string.
- * 
+ *
  * @example
- * 
+ *
  * ```
  * import { stripBom } from "https://deno.land/x/string/mod.ts";
  * stripBom('\uFEFFunicorn');
